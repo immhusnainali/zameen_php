@@ -427,7 +427,7 @@ a.bg-warning:focus,
 a.bg-warning:hover,
 button.bg-warning:focus,
 button.bg-warning:hover {
-  background-color: #e9ab2e !important;
+  background-color: #2ee95d !important;
 }
 .bg-danger,
 .badge-danger {
@@ -464,7 +464,7 @@ button.bg-danger:hover {
 }
 .text-warning,
 .dropdown-menu > li > a.text-warning {
-  color: #ffbc34 !important;
+  color: #42c948 !important;
 }
 .text-purple,
 .dropdown-menu > li > a.text-purple {
@@ -606,16 +606,16 @@ button.bg-danger:hover {
   color: #fff;
 }
 .btn-warning {
-  background-color: #ffbc34;
-  border: 1px solid #ffbc34;
+  background-color: #085f2c;
+  border: 1px solid #0b4710;
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning.active,
 .btn-warning:active,
 .open > .dropdown-toggle.btn-warning {
-  background-color: #e9ab2e;
-  border: 1px solid #e9ab2e;
+  background-color: #185f1e;
+  border: 1px solid #064715;
 }
 .btn-warning.active.focus,
 .btn-warning.active:focus,
@@ -626,14 +626,14 @@ button.bg-danger:hover {
 .open > .dropdown-toggle.btn-warning.focus,
 .open > .dropdown-toggle.btn-warning:focus,
 .open > .dropdown-toggle.btn-warning:hover {
-  background-color: #e9ab2e;
-  border: 1px solid #e9ab2e;
+  background-color: #208d26;
+  border: 1px solid #0a411c;
 }
 .btn-warning.active:not(:disabled):not(.disabled),
 .btn-warning:active:not(:disabled):not(.disabled),
 .show > .btn-danger.dropdown-toggle {
-  background-color: #e9ab2e;
-  border-color: #e9ab2e;
+  background-color: #0a7a35;
+  border-color: #0a460f;
   color: #fff;
 }
 .btn-warning.active:focus:not(:disabled):not(.disabled),
@@ -643,8 +643,8 @@ button.bg-danger:hover {
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
-  background-color: #ffbc34;
-  border-color: #ffbc34;
+  background-color: #288a1b;
+  border-color: #08471d;
   color: #fff;
 }
 .btn-danger {
@@ -785,8 +785,8 @@ button.bg-danger:hover {
   box-shadow: none;
 }
 .btn-outline-warning {
-  color: #ffbc34;
-  border-color: #ffbc34;
+  color: #0a4924;
+  border-color: #023327;
 }
 .btn-outline-warning:hover {
   color: #212529;
@@ -1401,7 +1401,7 @@ button.bg-danger:hover {
 -----------------------*/
 
 .header {
-  background: #ffbc34;
+  background: #08702a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   left: 0;
   position: fixed;
@@ -2271,7 +2271,7 @@ html.menu-opened body {
 }
 .add-btn span {
   align-items: center;
-  background-color: #ffc107;
+  background-color: #27a838;
   border-radius: 50%;
   color: #fff;
   display: inline-flex;
@@ -2485,10 +2485,10 @@ html.menu-opened body {
   font-weight: 600;
 }
 .table-inbox .fa-star {
-  color: #ffd200;
+  color: #0f8523;
 }
 .table-inbox .starred.fa-star {
-  color: #ffd200;
+  color: #169258;
 }
 .table.table-inbox > tbody > tr > td,
 .table.table-inbox > tbody > tr > th,

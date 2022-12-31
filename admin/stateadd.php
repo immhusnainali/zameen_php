@@ -37,7 +37,7 @@ if(isset($_POST['insert']))
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>Ventura - Data Tables</title>
+        <title>Zameen.com - Data Tables</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -175,21 +175,7 @@ if(isset($_POST['insert']))
 				</div>			
 			</div>
 			<!-- /Main Wrapper -->
-			<!---
-			
-			<label class="col-lg-3 col-form-label">State Name</label>
-													<div class="col-lg-9">	
-														<select class="form-control">
-															<option>Select</option>
-															<option>Option 1</option>
-															<option>Option 2</option>
-															<option>Option 3</option>
-															<option>Option 4</option>
-															<option>Option 5</option>
-														</select>
-													</div>
-			
-			---->
+
 
 		<!-- jQuery -->
         <script src="assets/js/jquery-3.2.1.min.js"></script>

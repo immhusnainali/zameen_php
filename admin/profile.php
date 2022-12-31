@@ -14,7 +14,7 @@ if(!isset($_SESSION['auser']))
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>LM HOMES | Profile</title>
+        <title>Zameen.com | Profile</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -153,35 +153,7 @@ if(!isset($_SESSION['auser']))
 								</div>
 								<!-- /Personal Details Tab -->
 								
-								<!-- Change Password Tab -->
-								<div id="password_tab" class="tab-pane fade">
-								
-									<div class="card">
-										<div class="card-body">
-											<h5 class="card-title">Change Password</h5>
-											<div class="row">
-												<div class="col-md-10 col-lg-6">
-													<form method="post">
-														<div class="form-group">
-															<label>Old Password</label>
-															<input type="password" class="form-control">
-														</div>
-														<div class="form-group">
-															<label>New Password</label>
-															<input type="password" class="form-control">
-														</div>
-														<div class="form-group">
-															<label>Confirm Password</label>
-															<input type="password" class="form-control">
-														</div>
-														<button class="btn btn-primary" type="submit">Save Changes</button>
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>  -->
-								<!-- /Change Password Tab -->
+	
 								
 							</div>
 						</div>

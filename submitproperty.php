@@ -114,23 +114,13 @@ if(isset($_POST['add']))
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
-<!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>Zameen.com</title>
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
 
 
 <div id="page-wrapper">
@@ -139,27 +129,7 @@ if(isset($_POST['add']))
 		<?php include("include/header.php");?>
         <!--	Header end  -->
         
-        <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Submit Property</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Submit Property</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-         <!--	Banner   --->
-		 
-		 
+ 
 		<!--	Submit property   -->
         <div class="full-row">
             <div class="container">
@@ -182,7 +152,7 @@ if(isset($_POST['add']))
 													<div class="col-lg-9">
 														<input type="text" class="form-control" name="title" required placeholder="Enter Title">
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+												</div>
 												<div class="form-group row">
 													<label class="col-lg-2 col-form-label">Content</label>
 													<div class="col-lg-9">
@@ -215,7 +185,7 @@ if(isset($_POST['add']))
 															<option value="sale">Sale</option>
 														</select>
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+												</div>
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Bathroom</label>
 													<div class="col-lg-9">
@@ -252,7 +222,7 @@ if(isset($_POST['add']))
 													<div class="col-lg-9">
 														<input type="text" class="form-control" name="bed" required placeholder="Enter Bedroom  (only no 1 to 10)">
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+												</div>
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Balcony</label>
 													<div class="col-lg-9">
@@ -266,7 +236,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+											</div>
 										</div>
 										<h5 class="text-secondary">Price & Location</h5><hr>
 										<div class="row">
@@ -302,7 +272,7 @@ if(isset($_POST['add']))
 														<input type="text" class="form-control" name="state" required placeholder="Enter State">
 													</div>
 												</div>
-											</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+											</div>
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Total Floor</label>
@@ -340,7 +310,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+											</div>
 										</div>
 										
 										<div class="form-group row">
@@ -377,7 +347,7 @@ if(isset($_POST['add']))
 													</div>
 												<!---feature area end---->
 											</textarea>
-											</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+											</div>
 										</div>
 												
 										<h5 class="text-secondary">Image & Status</h5><hr>
@@ -416,7 +386,7 @@ if(isset($_POST['add']))
 													<label class="col-lg-3 col-form-label">Basement Floor Plan Image</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="fimage1" type="file">
-													</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+													</div>
 												</div>
 											</div>
 											<div class="col-xl-6">
@@ -451,7 +421,7 @@ if(isset($_POST['add']))
 
 										<hr>
 
-										<div class="row"><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label"><b>Is Featured?</b></label>
@@ -487,7 +457,7 @@ if(isset($_POST['add']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 

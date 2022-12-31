@@ -13,10 +13,10 @@ if(!isset($_SESSION['auser']))
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="dashboard.php" class="logo">
-						<img src="assets/img/rsadmin.png" alt="Logo">
+						<img src="assets\img\logo.png" alt="Logo">
 					</a>
 					<a href="dashboard.php" class="logo logo-small">
-						<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="assets\img\logo.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -82,18 +82,7 @@ if(!isset($_SESSION['auser']))
 								<a href="dashboard.php"><i class="fe fe-home"></i> <span>Dashboard</span></a>
 							</li>
 							
-							<!-- <li class="menu-title"> 
-								<span>Authentication</span>
-							</li>
-						
-							<li class="submenu">
-								<a href="#"><i class="fe fe-user"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="index.php"> Login </a></li>
-									<li><a href="register.php"> Register </a></li>
-									
-								</ul>
-							</li> -->
+					
 							<li class="menu-title"> 
 								<span>All Users</span>
 							</li>
@@ -103,8 +92,8 @@ if(!isset($_SESSION['auser']))
 								<ul style="display: none;">
 									<li><a href="adminlist.php"> Admin </a></li>
 									<li><a href="userlist.php"> Users </a></li>
-									<li><a href="useragent.php"> Agent </a></li>
-									<li><a href="userbuilder.php"> Builder </a></li>
+									<!--<li><a href="useragent.php"> Agent </a></li>
+									<li><a href="userbuilder.php"> Builder </a></li>-->
 								</ul>
 							</li>
 
@@ -138,7 +127,7 @@ if(!isset($_SESSION['auser']))
 								<span>Query</span>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="fe fe-comment"></i> <span> Contact,Feedback </span> <span class="menu-arrow"></span></a>
+								<a href="#"><i class="fe fe-comment"></i> <span> Contact&Feedback </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="contactview.php"> Contact </a></li>
 									<li><a href="feedbackview.php"> Feedback </a></li>

@@ -82,7 +82,7 @@ if(!isset($_SESSION['uemail']))
 		 
 		<!--	Submit property   -->
         <div class="full-row bg-gray">
-            <div class="container"><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+            <div class="container">
                     <div class="row mb-5">
 						<div class="col-lg-12">
 							<h2 class="text-secondary double-down-line text-center">User Listed Property</h2>
@@ -91,7 +91,7 @@ if(!isset($_SESSION['uemail']))
 								echo $_GET['msg'];	
 							?>
                         </div>
-					</div><!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
+					</div>
 					<table class="items-list col-lg-12 table-hover" style="border-collapse:inherit;">
                         <thead>
                              <tr  class="bg-dark">
@@ -105,7 +105,6 @@ if(!isset($_SESSION['uemail']))
                              </tr>
                         </thead>
                         <tbody>
-						<!-- FOR MORE PROJECTS visit: freeprojectscodes.com -->
 							<?php 
 							$uid=$_SESSION['uid'];
 							$query=mysqli_query($con,"SELECT * FROM `property` WHERE uid='$uid'");

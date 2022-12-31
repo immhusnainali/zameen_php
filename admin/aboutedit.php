@@ -38,7 +38,7 @@ if(isset($_POST['update']))
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>Ventura - Vertical Form</title>
+        <title>Zameen.com</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -164,5 +164,4 @@ if(isset($_POST['update']))
 		<script  src="assets/js/script.js"></script>
     </body>
 
-<!-- Mirrored from dreamguys.co.in/demo/ventura/form-vertical.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Aug 2019 04:41:05 GMT -->
 </html>
