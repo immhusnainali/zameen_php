@@ -25,7 +25,7 @@ if(isset($_REQUEST['reg']))
 	else
 	{
 		
-		if(!empty($name) && !empty($email) && !empty($phone) && !empty($pass) && !empty($uimage))
+		if(!empty($name) && !empty($email) && !empty($phone) && !empty($pass) && empty($uimage))
 		{
 			
 			$sql="INSERT INTO user (uname,uemail,uphone,upass,utype,uimage) VALUES ('$name','$email','$phone','$pass','$utype','$uimage')";
